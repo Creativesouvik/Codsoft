@@ -1,0 +1,311 @@
+@import url('https://fonts.cdnfonts.com/css/google-sans');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Product Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+/* ---------Home or Brief Introduction section---------  */
+
+#welcome {
+    background-color: #006d65;
+    padding-top: 60px;
+}
+
+#welcome h1 {
+    color: #fff;
+}
+
+#welcome span {
+    color: rgb(255, 174, 0);
+}
+
+#welcome h2 {
+    color: #fff;
+}
+
+#welcome p {
+    color: #fff;
+}
+
+#welcome button {
+    padding: 15px;
+    width: 150px;
+    margin-top: 30px;
+    background-color: rgb(255, 174, 0);
+    border: none;
+    border-radius: 0px;
+}
+
+#welcome img {
+    margin-left: 70px;
+    padding-left: 50px;
+    width: 70%;
+}
+
+#project {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+#project h2 {
+    text-align: center;
+    color: rgb(255, 174, 0);
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+#project .card {
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#project .col-md-4 {
+    margin-bottom: 30px;
+}
+
+#project .card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+#contact {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #000000;
+    text-align: center;
+}
+
+#contact h2 {
+    color: rgb(255, 174, 0);
+}
+
+#contact h4 {
+    color: #fff;
+}
+
+#contact a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.downloadcv {
+    text-align: center;
+}
+
+
+
+
+nav {
+    background: #000000;
+    padding: 10px 40px 10px 70px;
+    border: 1px solid #000000;
+    border-left: none;
+    border-right: none;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul li.logo {
+    color: #ffffff;
+    flex: 1;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+nav ul div.items {
+    padding: 0 25px;
+    display: inline-flex;
+}
+
+nav ul div.items a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 0 12px;
+}
+
+nav ul div.items a:hover {
+    color: cyan;
+}
+
+nav ul .search-icon {
+    height: 40px;
+    width: 240px;
+    display: flex;
+    background: #f2f2f2;
+    border-radius: 5px;
+}
+
+nav ul .search-icon input {
+    height: 100%;
+    width: 200px;
+    border: none;
+    outline: none;
+    padding: 0 10px;
+    color: #000;
+    font-size: 16px;
+    border-radius: 5px 0 0 5px;
+}
+
+nav ul .search-icon .icon {
+    height: 100%;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #cccccc;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+nav ul .search-icon .icon:hover {
+    background: #9b9b9b;
+}
+
+nav ul .search-icon .icon span {
+    color: #222222;
+    font-size: 18px;
+}
+
+nav ul li.btn {
+    font-size: 29px;
+    flex: 1;
+    padding: 0 40px;
+    display: none;
+}
+
+nav ul li.btn span {
+    height: 42px;
+    width: 42px;
+    text-align: center;
+    line-height: 42px;
+    border: 1px solid #151515;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+nav ul li.btn span.show:before {
+    content: '\f00d';
+}
+
+
+
+
+.about__info {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: var(--mb-2-5);
+}
+
+.about__info-name,
+.about__info-title {
+    display: block;
+    text-align: center;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 20px;
+    text-align: center;
+    background-color: #006d65;
+    border: 2px solid;
+    border-color: #ffffff;
+    border-radius: 6px;
+}
+
+.column h4 {
+
+    color: #000000;
+
+}
+
+.column pre {
+    size: 10px;
+}
+
+.column hr {
+    background-color: #ffffff;
+}
+
+.Quali h2 {
+    margin: 20px;
+    padding: 5px;
+    text-align: center;
+    color: rgb(255, 157, 0);
+    /* background-color: rgb(255, 174, 0); */
+}
+
+.sk h2{
+    margin: 20px;
+    padding: 5px;
+    text-align: center;
+    color: rgb(255, 157, 0);
+}
+.sk{
+    margin: 20px;
+}
+.container h2{
+    margin: 20px;
+    padding: 5px;
+    text-align: center;
+    color: rgb(255, 157, 0);
+
+}
+
+
+
+/* Clear floats after the columns */
+/* .row:after 
+  {
+    content: "";
+    display: table;
+    clear:both;
+  }  */
+
+
+
+
+.containers {
+    background-color: rgb(192, 192, 192); 
+    width: 100%;
+    border-radius: 15px;
+}
+
+.skill {
+    background-color: rgb(116, 194, 92);
+    color: rgb(0, 0, 0);
+    /* padding: 1%;  */
+    text-align: center;
+    font-size: 5px;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+
+.html {
+    width: 80%;
+    background-color: rgb(18, 117, 11);
+}
+
+.css {
+    width: 70%;
+    background-color: rgb(57, 157, 26);
+}
+
+.php {
+    width: 60%;
+}
+
+.js {
+    width: 40%;
+    background-color: yellow;
+}
